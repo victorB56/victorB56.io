@@ -237,7 +237,7 @@ html{
     gap:4rem;
     text-align: center;
     height: 34rem;
-    background-image: url("img/galeria1/img1.jpeg");
+    background-image: url("/img/cesped.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     font-size: 2rem;
@@ -419,7 +419,7 @@ html{
   .galeria{
     height: 70rem;
     text-align: center;
-    background-image: url('img/img2.jpeg');
+    background-image: url('/img/img2.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
