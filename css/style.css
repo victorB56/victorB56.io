@@ -658,10 +658,43 @@ html{
     font-size: 1.6rem;
     font-family: var(--fuente-popins);
   }
-  
-  @media screen and (max-width: 768px) {
+  .formulario{
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: var(--azul-backgraud);
+    border-radius: 2rem;
+    max-width: 70%;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
   }
-  @media screen and (max-width: 590px) {
+  .formulario h2{
+    color: var(--negro);
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+  .input-formulario{
+    font-size: 1.2rem;
+    padding: 1rem 10rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    border: 1px solid var(--gris);
+  }
+  .label-formulario{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 10rem;
+    margin: 1rem;
+    background-color: var(--blanco);
+    border-radius: 2rem;  
+  }
+
+  
+ 
+  @media screen and (max-width: 480px) {
+    
     #slider1 {
       flex-direction: column;
       justify-content: flex-start;
