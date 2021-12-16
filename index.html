@@ -539,9 +539,40 @@
       </section>
 
       <div class="faqs" >
-          <h3></h3>
+          <div>
+            <h3> FAQ</h3>
+          <h2>
+            Frequently Asked Questions
+          </h2>
+          </div>
+          <div class="acordeon">
+            <div class="acordeon-titulo">
+                <h3>Can I use IRRIGAT for a non-business website?</h3>
+            </div>
+            <section  class="acordeon-contenido">
+                <p>Yes, this web design from MotoCMS has a universal design that fits any online project. You can create a website for any purposes. Reach success in blogging with IRRIGAT that is armed with the functionality, allowing creating a professional blog and changing its appearance in the admin panel from MotoCMS with no knack for learning programming languages.
+                </p>
+            </section>
+            <div class="acordeon">
+                <div class="acordeon-titulo">
+                    <h3>How to test free of charge?</h3>
+                </div>
+                <section  class="acordeon-contenido">
+                    <p>Go to the template page, click on the Launch free trial button, use a preferable way to log in to your admin panel, wait for a few sec and enjoy! IRRIGAT is always available for a free test during 14 days. Before using a promo-code, launch a trial version and start building a business website for your project at no cost to meet the functionality by yourself.
+                    </p>
+                </section>
+              </div>
+              <div class="acordeon">
+                <div class="acordeon-titulo">
+                    <h3>How to test IRRIGAT free of charge?</h3>
+                </div>
+                <section  class="acordeon-contenido">
+                    <p>Go to the template page, click on the Launch free trial button, use a preferable way to log in to your admin panel, wait for a few sec and enjoy! IRRIGAT is always available for a free test during 14 days. Before using a promo-code, launch a trial version and start building a business website for your project at no cost to meet the functionality by yourself.</p>
+                </section>
+              </div>
+                </div>
       </div>
-
+     
     </main>
 
 
@@ -574,6 +605,13 @@
     </footer>
     
 </body>
+<script>
+    $(".acordeon-titulo").click(function(){
+        var t=$(this);
+        var tp= t.next()
+        tp.slideToggle();
+    })
+</script>
 <script src="librerias/fancybox/jquery.fancybox.js">
 
     $().ready(function(){

@@ -490,12 +490,12 @@ html{
   #slider1 {
     padding: 15px;
     display: grid;
-    grid-template-rows: repeat( 2, 1fr);
+    grid-template-rows: 50% 50%;
     align-items: flex-start;
     
   }
   .cont_flechas {
-    
+    padding-top: 12rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -601,6 +601,22 @@ html{
     text-decoration:underline ;
     transition: all .5s;
   }
+  .faqs{
+    padding-top:0 ;
+    text-align: center;
+  }
+  .faqs h3{
+    color:var(--azul);
+    font-family: var(--fuente-popins);
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  .faqs h2{
+    color: var(--negro);
+    font-family: var(--fuente-roboto);
+    font-weight: 700;
+    font-size: 3rem;
+  }
   .copy{
     border-top: 1px solid var(--gris);
    margin-top: 5rem;
@@ -621,6 +637,26 @@ html{
     margin-bottom: 2rem;
     
     font-size: 1.6rem;
+  }
+  .faqs{
+    background-color: var(--azul-backgraud);
+    display:grid;
+    grid-template-columns: 30% 70%;
+    
+  }
+
+  .acordeon-titulo{
+    border-radius: 1rem;
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: .2rem;
+    cursor: pointer; 
+  }
+  .acordeon-contenido{
+    display: none;
+    color: var(--gris);
+    font-size: 1.6rem;
+    font-family: var(--fuente-popins);
   }
   
   @media screen and (max-width: 768px) {
