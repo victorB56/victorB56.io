@@ -229,7 +229,7 @@ html{
     font-size: 1.6rem;
   }
   .videos{
-    
+    color: var(--negro);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,18 +237,21 @@ html{
     gap:4rem;
     text-align: center;
     height: 34rem;
-    background-image: url("img/cesped.jpeg");
+    background-image: url("/img/cesped.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     font-size: 2rem;
   }
   .video{
-    
+    color: var(--negro);
   padding-top: 4rem;
    text-align: center;
   }
+  .videos h2{
+    color: var(--negro);
+  } 
   .btn-play{
-    color: var(--blanco);
+    color: var(--negro);
 
   }
   .btn-play:hover{
