@@ -25,7 +25,7 @@
                   <img src="img/galeria1/img1.jpeg" alt="" />
                   
                   <div class="caption">
-                    <div class="hola">
+                    <div class="hola ">
                         <p class="sombras-txt">Welcome to our irrigation company!</p>
                         <p class="sombras-txt">Working Hours: Mo-Fr: 9:00am - 8:00pm</p>
                         <p class="sombras-txt">Call: (123) 456-7890</p>
@@ -54,13 +54,13 @@
                        
                         
                         <div class="titulo  ">
-                            <h1 class="sombras-txt" >
+                            <h1 class="sombras-txt animate__animated animate__backInLeft" >
                                 BEST IRRIGATION <br> SOLUTION & PRODUCTS <br> FOR ANY INDUSTRY
                             </h1>
                            
                         </div>
                         
-                        <a class="btn " href="#slider1">ver mas</a>
+                        <a class="btn  animate__animated animate__backInLeft animate__delay-5s " href="#slider1">ver mas</a>
                    
                   </div>
                 </li>
@@ -94,20 +94,20 @@
                         </nav>
                     </div>
                     <div class="titulo  ">
-                        <h1  class="sombras-txt">
+                        <h1  class="sombras-txt ">
                             BEST IRRIGATION <br> SOLUTION & PRODUCTS <br> FOR ANY INDUSTRY
                         </h1>
                        
                     </div>
                     
-                    <a class="btn" href="#">ver mas</a>
+                    <a class="btn" href="#slider1">ver mas</a>
                
 
                 </li>
                 <li class="cajatexto">
                   <img src="img/galeria1/img5.jpeg" alt="" />
                   <div class="caption">
-                    <div class="hola">
+                    <div class="hola  ">
                         <p class="sombras-txt">Welcome to our irrigation company!</p>
                         <p class="sombras-txt">Working Hours: Mo-Fr: 9:00am - 8:00pm</p>
                         <p class="sombras-txt">Call: (123) 456-7890</p>
@@ -141,7 +141,7 @@
                        
                     </div>
                     
-                    <a class="btn" href="#">ver mas</a>
+                    <a class="btn" href="#slider1">ver mas</a>
                
                    
                 </li>
@@ -149,7 +149,9 @@
             </div>
           </section>
     </header>
-   
+        <div class="btn-arriba animate__animated animate__bounceIn">
+            <a href="#contenedorslide"> <i><i class="fas fa-arrow-up fa-3x"></i></i></a>
+        </div>
     <main >
         <section id="irra" class="contenedor titulo-tabs"> 
             <h3>
@@ -374,7 +376,7 @@
                 <h1>
                     PERSONAL APPROACH
                 </h1>
-                <img src="img/iconos/mt-2047-content-icon1.png" alt="icono 1">
+                <img class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-content-icon1.png" alt="icono 1">
                 <p>
                     We spend the time with each of our clients, <br> discuss all their needs and requirements, and make appropriate <br> recommendations.
                 </p>
@@ -383,7 +385,7 @@
                 <h1>
                     PERSONAL APPROACH
                 </h1>
-                <img src="img/iconos/mt-2047-content-icon2.png" alt="icono 1">
+                <img class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-content-icon2.png" alt="icono 1">
                 <p>
                     We spend the time with each of our clients, <br> discuss all their needs and requirements, and make appropriate <br> recommendations.
                 </p>
@@ -392,7 +394,7 @@
                 <h1>
                     PERSONAL APPROACH
                 </h1>
-                <img src="img/iconos/mt-2047-content-icon3.png" alt="icono 1">
+                <img class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-content-icon3.png" alt="icono 1">
                 <p>
                     We spend the time with each of our clients, <br> discuss all their needs and requirements, and make appropriate <br> recommendations.
                 </p>
@@ -409,7 +411,7 @@
                   
                 </a>
                     
-                <a class="fancybox" href="img/galeria1/img2.jpeg" data-fancybox-group="gallery" title="img2" >
+                <a class="fancybox  " href="img/galeria1/img2.jpeg" data-fancybox-group="gallery" title="img2" >
                     <img src="img/galeria1/tumbs/img2.jpeg" alt="img-thum">
                 </a>
                 <a class="fancybox" href="img/galeria1/img3.jpeg" data-fancybox-group="gallery" title="img3" >
@@ -432,18 +434,18 @@
 
         <div  class="team-img">
             <div>
-                <img src="img/iconos/mt-2047-team-img1.png" alt="persona1">
+                <img  class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-team-img1.png" alt="persona1">
                 <h2>Nicholas Hunt</h2>
                 <p>Certified irrigation designer</p>
     
             </div>
             <div>
-                <img src="img/iconos/mt-2047-team-img2.png" alt="persona1">
+                <img class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-team-img2.png" alt="persona1">
                 <h2>Philip Murphy</h2>
                 <p>Irrigation support specialist</p>
             </div>
             <div>
-                <img src="img/iconos/mt-2047-team-img3.png" alt="persona1">
+                <img class="animate__animated animate__pulse animate__infinite" src="img/iconos/mt-2047-team-img3.png" alt="persona1">
                 <h2>Carl Richards</h2>
                 <p>Project manager</p>
             </div>
@@ -667,7 +669,7 @@
     
       $(function () {
         $("#slider4").responsiveSlides({
-          auto: false,
+          auto: true,
           pager: false,
           nav: true,
           speed: 500,
